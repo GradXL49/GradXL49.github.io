@@ -3,7 +3,7 @@
  */
 
 //server variables
-const API = 'http://127.0.0.1:8000';
+const API = 'http://gradxl49.pythonanywhere.com/';
 
 //general variables
 var canvas;
@@ -547,15 +547,15 @@ function getScores() {
 // }
 
 //reset for dev purposes
-function ResetStorage() {
-	localStorage.clear();
-	location.reload();
-}
+// function ResetStorage() {
+// 	localStorage.clear();
+// 	location.reload();
+// }
 
 //set score for dev purposes
-function SetScore(value) {
-	score = value;
-}
+// function SetScore(value) {
+// 	score = value;
+// }
 
 //capture the user's IP
 function captureIP() {
